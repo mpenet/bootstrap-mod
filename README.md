@@ -2,11 +2,11 @@ bootstrap-mod
 =============
 
 
-Modular version of [https://github.com/twitter/bootstrap](twitter/bootstrap)
+Modular version of [twitter/bootstrap](https://github.com/twitter/bootstrap)
 with minor differences
 
 The goal is to add a clear separation between the different parts of
-[https://github.com/twitter/bootstrap](bootstrap), allowing you to
+[bootstrap](https://github.com/twitter/bootstrap), allowing you to
 select only the stuff you need and have fine grained control over the
 generated files.
 

@@ -1,0 +1,44 @@
+/* Responsive.less
+ * Adjusted grid styles to handle some common screen sizes
+ * ------------------------------------------------------- */
+@media only screen and (max-width: 480px) {
+  .container {
+    width: auto;
+    padding: 0 10px;
+  }
+  .row {
+    margin-left: 0;
+  }
+  .row [class^="span"] {
+    float: none;
+    width: 100%;
+    display: block;
+    margin-left: 0;
+  }
+  fieldset legend {
+    margin-left: 0;
+  }
+  label {
+    float: none;
+    width: auto;
+    text-align: left;
+  }
+  div.input {
+    margin-left: 0;
+    width: 100%;
+  }
+  .input-xxlarge,
+  input.xxlarge,
+  textarea.xxlarge,
+  select.xxlarge {
+    width: 80%;
+  }
+  .modal-backdrop {
+    padding: 10px;
+  }
+  .modal {
+    width: 100%;
+    margin: 0;
+    left: auto;
+  }
+}

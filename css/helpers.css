@@ -1,0 +1,35 @@
+/* Style shortcuts for design exceptions, not very semantic friendly but
+   usefull sometimes still.
+ */
+.hidden {
+  display: none;
+}
+.left {
+  float: left;
+}
+.right {
+  float: right;
+}
+.light {
+  color: #bfbfbf;
+}
+.bold {
+  font-weight: bold;
+}
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.clearfloat {
+  zoom: 1;
+}
+.clearfloat:before, .clearfloat:after {
+  display: table;
+  content: "";
+}
+.clearfloat:after {
+  clear: both;
+}
+.clearer {
+  clear: both;
+}
